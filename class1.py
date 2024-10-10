@@ -53,3 +53,5 @@ print(max(1,2,3,4,5,)) #output 5 this is the maximum value of the numbers
 print(min(1,2,3,4,5)) #output 1 this is the minimum value of the numbers
 print(round(3.14)) #output 3 this is round up of the number
 print(round(3.78)) #output 4 this is round up of the number
+
+
