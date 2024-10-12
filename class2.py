@@ -58,23 +58,23 @@ print(list_of_fruits[2:5])
 list_of_fruits.remove('grape')
 print(list_of_fruits)
 
-'''turple'''#a data that cant be altered or changed
-my_turple = () #empty turple
-single_turple = ('jide',) #single turple
-multiple_turple = ('jkbrime', 'olalekan', 'banana', ['lagos', 'osun', 'oyo', 'kano'], 1,3,4,True,False)
+'''tuple'''#a data that cant be altered or changed
+my_tuple = () #empty turple
+single_tuple = ('jide',) #single turple
+multiple_tuple = ('jkbrime', 'olalekan', 'banana', ['lagos', 'osun', 'oyo', 'kano'], 1,3,4,True,False)
 my_turple2 = ('[1,3,4,5,6,7]')
-print(multiple_turple[3])
-print(multiple_turple[2:6])
-print(len(multiple_turple))
-turple1 = (1,2,3)
-turple2 = (4,5,6)
-con_turple = turple1 + turple2
-print(con_turple)
-turple1 = (1,2,3,4)
-turple2 = (5,6,7,8)
-turple3 = (9,10,11,12)
-con_turple = turple1 + turple2 + turple3
-print(con_turple)
+print(multiple_tuple[3])
+print(multiple_tuple[2:6])
+print(len(multiple_tuple))
+tuple1 = (1,2,3)
+tuple2 = (4,5,6)
+con_tuple = tuple1 + tuple2
+print(con_tuple)
+tuple1 = (1,2,3,4)
+tuple2 = (5,6,7,8)
+tuple3 = (9,10,11,12)
+con_tuple = tuple1 + tuple2 + tuple3
+print(con_tuple)
 
 my_foods = ('rice', 'beans', 'eggs') #converting from tuple data type to list data type
 my_foods_list = list(my_foods)
@@ -83,3 +83,9 @@ tuple_food = tuple(my_foods_list)
 print(tuple_food)
 print(tuple_food * 3)
 '''NOTE:tuple has normal bracket while list has block bracket'''
+
+my_list2 = list(range(10))
+print(my_list2[0])
+
+
+print(my_list2[5])
