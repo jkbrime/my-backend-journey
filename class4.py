@@ -95,6 +95,7 @@ else:
    print('incorrect password')
 
 '''
+'''
 user_bio_data = {}
 user_bio_data['username'] = input('enter your username')
 user_bio_data['sex'] = input('enter your sex')
@@ -109,8 +110,7 @@ if user_bio_data['password1'] == user_bio_data['password2']:
 else:
    print('correct your password')
 
-   '''
-   assignment
+assignment
 
    1. write a python program to check if a number is even or odd, if it is even print even and if it is odd, print odd
    2. write a python code to check a student grade based on their score
@@ -118,5 +118,44 @@ else:
    4. write a python program to check if a year is a leap year
    all variables must be gotten from an input user
    '''
+#1
+num = int(input('enter any number to check whether it is odd or even'))
+if (num % 2) == 0:
+    print('The number is even')
+else: print('The number is odd')
+
+#2
+enter_marks = int(input('enter the marks (0 - 100)'))
+if 0 <= enter_marks <= 100:
+    if enter_marks >= 90: grade = 'A'
+    elif enter_marks >= 80: grade = 'B'
+    elif enter_marks >= 70: grade = 'C'
+    elif enter_marks >= 60: grade = 'D'
+    else: grade = 'F'
+    print('grade:', grade)
+    #else:
+    print('invalid marks. Please enter a value between 0 and 100')
+
+#3
+num = int(input('input a number '))
+if num > 0:
+    print('it is a positive number')
+elif num == 0:
+    print('it is zero')
+else:
+    print('it is negative')
+
+#4
+'''
+year = int(input('input a year'))
+if (year % 4 == 0 and (year % 100 ! = 0 or year % 400 == 0)):
+    print(f'{year} is a leap year')
+else:
+    print(f'{year} is not a leap year')
+'''
+
+
+
+
 
 
