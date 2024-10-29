@@ -37,7 +37,7 @@ print(string_value.__len__())#length of the string
 
 #inputs
 name = input("what is your name?")
-print("your name is" + name)
+print("your name is "  +   name)
 
 #simple calculator to get addition and subtraction
 number1 = int(input("input any number")) # the int is to show that it is an integer
@@ -47,11 +47,13 @@ sub = number2 - number1
 print(f"the sum of your numbers are {add}") #f there is to show that it is an f string
 print(f"the substration of your numbers are {sub}")
 
-print(str(number))#output 78
+print(str(number1))#output 78
 print(abs(-78))#output 78 this is the absolute value of the number
 print(max(1,2,3,4,5,)) #output 5 this is the maximum value of the numbers
 print(min(1,2,3,4,5)) #output 1 this is the minimum value of the numbers
+'''
 print(round(3.14)) #output 3 this is round up of the number
 print(round(3.78)) #output 4 this is round up of the number
+'''
 
 

@@ -13,15 +13,15 @@ timi_name = my_list[5]
 
 print('hello ' + timi_name)
 
-print(f'hello {my_list[4]} and i am {my_list[10]}') # the f string is to be able to print strings and integers
-print(my_list2[-1])
+print(f'hello {my_list[4]} and i am {my_list[10]}') # the f string is to be able to print strings and integers together
+print(my_list2[-1]) # this is printing the last number on a list or range
 
 print(my_list[2:5]) #slicing is to list a range of data, eg sekinat to jide
 
 my_list[6] = 'joy' #to add joy to the list of names on the data
 print(my_list)
 
-my_list.append(1) #it adds a data to the end of existing data
+my_list.append('xyz') #it adds a data to the end of existing data
 print(my_list)
 
 my_list.insert(7, 'joel') #to insert a name in a particuler place
@@ -30,7 +30,7 @@ print(my_list)
 my_list.pop(-1) #to remove from the end
 print(my_list)
 
-my_list.pop(4)
+my_list.pop(4) # to remove the data at index 4
 print(my_list)
 
 my_list.insert(4, 'jide')
@@ -59,10 +59,10 @@ list_of_fruits.remove('grape')
 print(list_of_fruits)
 
 '''tuple'''#a data that cant be altered or changed
-my_tuple = () #empty turple
-single_tuple = ('jide',) #single turple
-multiple_tuple = ('jkbrime', 'olalekan', 'banana', ['lagos', 'osun', 'oyo', 'kano'], 1,3,4,True,False)
-my_turple2 = ('[1,3,4,5,6,7]')
+my_tuple = () #empty tuple
+single_tuple = ('jide',) #single tuple
+multiple_tuple = ('jkbrime', 'olalekan', 'banana', ['lagos', 'osun', 'oyo', 'kano'], 1,3,4,True,False,'xyz')
+my_tuple2 = ('[1,3,4,5,6,7]')
 print(multiple_tuple[3])
 print(multiple_tuple[2:6])
 print(len(multiple_tuple))
@@ -89,3 +89,5 @@ print(my_list2[0])
 
 
 print(my_list2[5])
+
+
